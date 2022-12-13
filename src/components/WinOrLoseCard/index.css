@@ -1,0 +1,22 @@
+/* Write your code here. */
+.win-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.content-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  color: white;
+}
+.play-button-style {
+  background-color: yellow;
+  border: 0px none transparent;
+  color: black;
+  font-family: 'roboto';
+  border-radius: 10px;
+  padding: 5px;
+}
