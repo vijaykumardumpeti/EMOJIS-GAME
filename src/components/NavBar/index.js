@@ -6,7 +6,7 @@ export default class NavBar extends Component {
     const {totalScore, score, isPreviouslyClicked} = this.props
 
     let scoresContainer
-    if (isPreviouslyClicked === false) {
+    if (isPreviouslyClicked === false && score < 12) {
       scoresContainer = (
         <div className="nav-2-container">
           <p className="score">Score: {score}</p>
